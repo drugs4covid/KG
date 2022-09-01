@@ -1,0 +1,2 @@
+#docker run -it --rm -p 8080:8080 librairy/helio:0.3
+docker run -it --rm -p 8080:8080 -e SERVER_PORT=8080 -e SERVER_ADDRESS=127.0.0.1 -e SERVER_USE-FORWARD-HEADERS=true librairy/helio:0.3
